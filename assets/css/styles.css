@@ -47,7 +47,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color:black;
 }
 
 h1, h2, p {
@@ -188,11 +188,11 @@ img {
   align-self: center;
 }
 .home__title {
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  font-size: 100px;
+  margin-bottom: -20px;
 }
 .home__title-color {
-  color: var(--first-color);
+  color: black;
 }
 .home__social {
   display: flex;
@@ -224,12 +224,13 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: black;
   color: #fff;
   padding: 0.75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: 0.5rem;
+  font-weight: var(--normal-font-size);
+  border-radius: 5px;
   transition: 0.3s;
+  margin-top: var(--mb-4);
 }
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
